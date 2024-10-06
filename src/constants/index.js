@@ -57,7 +57,7 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
-  {
+  /* {
     title: "Podcastr - AI Podcast Platform",
     desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
     subdesc:
@@ -169,13 +169,13 @@ export const myProjects = [
         path: "/assets/framer.png",
       },
     ],
-  },
+  }, */
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "Pared - Personal Banking Platform",
+    desc: "Horizon is a comprehensive personal finance manager and banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts and cards, monitor real-time transactions from multiple institutions in the same place, and seamlessly transfer money to other users on the platform.",
     subdesc:
       "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+    href: "https://banking-six-olive.vercel.app/",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
@@ -207,7 +207,7 @@ export const myProjects = [
       },
     ],
   },
-  {
+  /* {
     title: "Imaginify - AI Photo Manipulation App",
     desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
     subdesc:
@@ -243,7 +243,7 @@ export const myProjects = [
         path: "/assets/framer.png",
       },
     ],
-  },
+  }, */
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

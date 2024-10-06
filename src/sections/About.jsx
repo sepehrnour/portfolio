@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Globe from "react-globe.gl";
 import Button from "../components/Button";
 
@@ -12,7 +12,7 @@ const About = () => {
     }, 2000);
   };
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="about">
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
@@ -25,7 +25,7 @@ const About = () => {
               <p className="grid-headtext">Hi, I'm Sepehr</p>
               <p className="grid-subtext">
                 With 2 years of experience, I have honed my skills in frontend
-                and backend development, witha focus on animated 3d Websites
+                and backend development, witha focus on animated 3D websites.
               </p>
             </div>
           </div>
@@ -82,7 +82,7 @@ const About = () => {
               <p className="grid-headtext">My passion for coding</p>
               <p className="grid-subtext">
                 I love problem solving, building ideas through code isn't just
-                my profession - it is my passion
+                my profession - it is my passion.
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ const About = () => {
             <img
               src="/assets/grid4.png"
               alt="grid-4"
-              className="w-full lg:scale-100 lg:h-[1350px] md:h-[120px] sm:h-[180px] h-fit object-cover sm:object-top"
+              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover 2xl:object-contain sm:object-top"
             />
             <div className="space-y-2">
               <p className="grid-subtext text-center">Contact Me</p>
