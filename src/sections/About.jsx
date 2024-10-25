@@ -19,7 +19,7 @@ const About = () => {
             <img
               src="/assets/grid1.png"
               alt="grid-1"
-              className="w-full sm:h-[276px] h-fit object-contain"
+              className="w-full md:h-[356px] h-fit object-contain"
             />
             <div>
               <p className="grid-headtext">Hi, I'm Sepehr</p>
@@ -35,7 +35,7 @@ const About = () => {
             <img
               src="/assets/grid2.png"
               alt="grid-2"
-              className="w-full sm:h-[276px] h-fit object-contain"
+              className="w-full md:h-[356px] h-fit object-contain"
             />
             <div>
               <p className="grid-headtext">Tech Stack</p>
@@ -48,7 +48,7 @@ const About = () => {
         </div>
         <div className="col-span-1 xl:row-span-4">
           <div className="grid-container">
-            <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
+            <div className="rounded-3xl w-full md:h-[446px] h-fit flex justify-center items-center">
               <Globe
                 height={326}
                 width={326}
@@ -76,7 +76,7 @@ const About = () => {
             <img
               src="/assets/grid3.png"
               alt="grid-3"
-              className="w-full sm:h-[266px] h-fit object-contain"
+              className="w-full xl:h-[366px] sm:h-[448px] h-fit object-contain"
             />
             <div>
               <p className="grid-headtext">My passion for coding</p>
@@ -92,7 +92,7 @@ const About = () => {
             <img
               src="/assets/grid4.png"
               alt="grid-4"
-              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover 2xl:object-contain sm:object-top"
+              className="w-full 2xl:h-[180px] md:h-[156px] h-[400px] object-cover 2xl:object-contain object-top"
             />
             <div className="space-y-2">
               <p className="grid-subtext text-center">Contact Me</p>

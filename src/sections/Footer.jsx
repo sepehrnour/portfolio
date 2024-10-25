@@ -4,7 +4,7 @@ const Footer = () => {
       <p className="text-white-500 md:text-sm text-xs">
         © 2024 Sepehr. All rights reserved.
       </p>
-      <div className="flex gap-3 pr-2 justify-items-end">
+      <div className="flex gap-3 pr-0.5 justify-items-end">
         <div className="social-icon">
           <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
         </div>
